@@ -1,0 +1,133 @@
+{
+	"id": "f1592967-506b-49a1-bb81-ffebfb310c50",
+	"name": "Тестировани публичного API",
+	"timestamp": "2021-10-07T14:05:08.031Z",
+	"collection_id": "16553249-9faf2065-8cf6-42d8-b53b-e89fa445d2ba",
+	"folder_id": 0,
+	"environment_id": "e9970504-e976-4a38-a863-5acd4d5c67a3",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "33b41e6b-e70a-49b5-8808-53670555e71d",
+			"name": "https://reqres.in/api/users?name=morpheus&job=leader&id=954",
+			"time": 163,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				239,
+				163
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "eb307082-6e15-41e3-adb1-ca7185edac7b",
+			"name": "https://reqres.in/api/users/2",
+			"time": 42,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				40,
+				42
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "9519e065-2445-47ce-9dad-e378729f4021",
+			"name": "https://reqres.in/api/users/2?name=morpheus&job=zion resident",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				154,
+				185
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "d9938f0b-3bff-4e19-966a-8b384fcb12dc",
+			"name": "https://reqres.in/api/users/2",
+			"time": 159,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				145,
+				159
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "ee7adcb3-0a8e-414e-bad0-1d0538dadb47",
+			"name": "https://reqres.in/api/users/2",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				170,
+				174
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 1471,
+	"collection": {
+		"requests": [
+			{
+				"id": "33b41e6b-e70a-49b5-8808-53670555e71d",
+				"method": "POST"
+			},
+			{
+				"id": "eb307082-6e15-41e3-adb1-ca7185edac7b",
+				"method": "GET"
+			},
+			{
+				"id": "9519e065-2445-47ce-9dad-e378729f4021",
+				"method": "PUT"
+			},
+			{
+				"id": "d9938f0b-3bff-4e19-966a-8b384fcb12dc",
+				"method": "DELETE"
+			},
+			{
+				"id": "ee7adcb3-0a8e-414e-bad0-1d0538dadb47",
+				"method": "PUT"
+			}
+		]
+	}
+}
